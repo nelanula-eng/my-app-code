@@ -4,7 +4,6 @@ pipeline {
         stage('Check Tools') {
             steps {
                 echo 'Checking if everything is installed...'
-                sh 'docker version'
             }
         }
         stage('Finish') {
